@@ -1,0 +1,26 @@
+.cat-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 20px;
+}
+.cat-breed {
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+}
+.cat-breed:hover {
+   transform: translateY(-10px); 
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2); 
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+.cat-breed img {
+    width:  400px;
+    height: 500px;
+    border-radius: 8px;
+}
+h3 {
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: rgb(105, 5, 5);
+}
